@@ -27,3 +27,7 @@ npm run dev
 - TypeScript
 - React
 - Tailwind CSS
+
+## ML Project
+
+The machine-learning project (sentiment analysis of movie reviews) lives in [`ml/`](ml/). It uses three classical models — Naïve Bayes (Bag-of-Words), Logistic Regression (TF-IDF), and Linear SVM (TF-IDF) — with a Jupyter demo notebook. See [`ml/README.md`](ml/README.md) for setup with Anaconda/Jupyter.
