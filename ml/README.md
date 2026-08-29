@@ -1,4 +1,4 @@
-# Sentiment Analysis of Text Reviews using Deep Learning
+# Sentiment Analysis of Movie Reviews using Machine Learning
 
 Code for the BMCS2003 / BMCS2203 / BMCS2074 Artificial Intelligence assignment.
 Three models are benchmarked on the **same** train/test split:
@@ -56,13 +56,10 @@ python model2_tfidf_linear.py --algorithm svm
 Or run everything and produce the comparison chart in one go:
 
 ```bash
-python run_all.py                 # models 1 & 2
-python run_all.py --with_bert     # all three
+python run_all.py                 # trains all three models and plots the comparison
 ```
 
 Useful flags: `--dataset imdb`, `--sample 2000` (quick test on fewer reviews).
-
-or upload `src/` to Google Colab and switch the runtime to GPU.
 
 ## 4. Outputs for your report
 
@@ -128,5 +125,4 @@ ml/
 
 - Pang, B., & Lee, L. (2004). *A sentimental education: Sentiment analysis using subjectivity summarization based on minimum cuts.* Proceedings of the ACL. Dataset: http://www.cs.cornell.edu/people/pabo/movie-review-data/
 - Maas, A. L., et al. (2011). *Learning word vectors for sentiment analysis.* Proceedings of the ACL. (IMDb dataset)
-- Vaswani, A., et al. (2017). *Attention is all you need.* NeurIPS.
 - Pedregosa, F., et al. (2011). *Scikit-learn: Machine learning in Python.* JMLR, 12, 2825-2830.
