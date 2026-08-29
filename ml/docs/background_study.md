@@ -51,6 +51,5 @@ also recorded to show the accuracy/cost trade-off between the algorithms.
 ## References
 - Pang, B., & Lee, L. (2004). *A sentimental education.* Proceedings of the ACL.
 - Maas, A. L., et al. (2011). *Learning word vectors for sentiment analysis.* ACL.
-- Devlin, J., et al. (2019). *BERT.* NAACL.
 - Mikolov, T., et al. (2013). *Efficient estimation of word representations in vector space.* arXiv:1301.3781.
 - Pedregosa, F., et al. (2011). *Scikit-learn.* JMLR, 12, 2825–2830.
